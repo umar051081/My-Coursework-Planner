@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Learn about README files, wireframes, and Git branches.">
-  <title>A Short description on README, Wireframes, and Git Branches</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Basics of Developer Requirements</h1>
-    <p>Your guide to README files, Wireframes, and Git Branches</p>
-  </header>
-
-  <main>
-    <section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe Web Code</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Wireframe Web Code</h1>
+      </header>
+    <main>
+      <section>
+        <h1> Purpose of Wireframe </h1>
+        <p>
+          A wireframe is a basic, skeletal representation of a website or app's layout and structure, <br>focusing on the arrangement of content and features without detailed design elements like colors or images. It's a blueprint for how a product will look and function, helping designers, developers, and 
+          stakeholders understand the user interface before diving into visual design.  </p>
+      
+      </section>
+      <section>
+        <h1> Purpose of ReadMe File </h1>
+        <p>
+          The primary purpose of a README.md file is to serve as a user guide and introduction to a project,<br> especially in software development and GitHub repositories. It provides essential information about the project, including its purpose, usage instructions, and how to contribute. 
+          Essentially, it's the first document a user should consult when encountering a new project or codebase. 
+          </p>
+      </section>
+      <section>
+        <h1> What is branch in Git? </h1>
+        <p>
+          A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. <br>
+          You can think of them as a way to request a brand new working directory, staging area, and project history.
+        </p>
+      </section>
       <article>
-        <h2>What is the purpose of a README file?</h2>
-        <p>A README file explains what your project is about and how to use it. It is the first impression for anyone visiting your repository.</p>
-        <a href="https://www.makeareadme.com/" target="_blank" rel="noopener noreferrer">Learn more about READMEs</a>
+        <img src="placeholder.svg" alt="" />
+        <h2>Title</h2>
+        <p>
+          A Beautiful Image with lots of information</p>
+        <a href="">Read more</a><br>
       </article>
-
-      <article>
-        <h2>What is the purpose of a wireframe?</h2>
-        <p>A wireframe is a simple visual guide to plan the layout and structure of your web page or app before you start coding.</p>
-        <a href="https://careerfoundry.com/en/blog/ux-design/what-is-a-wireframe/" target="_blank" rel="noopener noreferrer">Learn more about wireframes</a>
-      </article>
-
-      <article>
-        <h2>What is a branch in Git?</h2>
-        <p>A Git branch is a copy of your codebase where you can safely work on changes, features, or experiments without affecting the main project.</p>
-        <a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank" rel="noopener noreferrer">Learn more about Git branches</a>
-      </article>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Developer Guide</p>
-  </footer>
-</body>
+    </main>
+    <footer>
+      <p>
+        Umar Mohammed. Thank You.
+      </p>
+    </footer>
+  </body>
 </html>
